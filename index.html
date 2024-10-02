@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online Laptop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRm8qUVq/4Y5i8Lg1hJo3kkQ1Q/sEYeWw5Pg5xjZJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Highlight Section -->
+    <section id="highlight" class="highlight-section">
+        <div class="highlight-content">
+            <h1>Toko Laptop Online</h1>
+            <p>Temukan berbagai laptop berkualitas dari brand ternama!</p>
+        </div>
+    </section>
+    <header>
+        <div class="logo">HNDK Store</div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">List Produk</a>
+                    <ul class="dropdown-content">
+                        <li><a href="#lenovo">Lenovo</a></li>
+                        <li><a href="#acer">Acer</a></li>
+                        <li><a href="#hp">HP</a></li>
+                    </ul>
+                </li>
+                <li><a href="#kontak">Kontak</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Selamat Datang di HNDK Store</h1>
+        <p>Temukan beragam pilihan laptop dari merek ternama dengan harga terbaik. <br>Kami hadir untuk memenuhi kebutuhan
+            teknologi Anda dengan produk berkualitas dan layanan terpercaya.</p>
+    </section>
+
+    <div id="products" class="container">
+        <h1>Katalog Produk</h1>
+
+        <!-- Produk Lenovo -->
+        <div id="lenovo" class="product-section">
+            <h2>Lenovo</h2>
+            <div class="product-item">
+                <img src="https://p4-ofp.static.pub//fes/cms/2024/09/13/w473y8owmv05nclntqvxwobq983e4t549032.png"
+                    alt="Laptop Lenovo 1">
+                <h3>IdeaPad Slim 3i (16'', Gen 8)</h3>
+                <p>Harga: Rp 8.499.000</p>
+                <a href="https://shorturl.at/G1Tno" class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product-item">
+                <img src="https://p3-ofp.static.pub//fes/cms/2024/07/05/umcrxcnsm2br1itju6gvundeb9s6tf364734.png"
+                    alt="Laptop Lenovo 2">
+                <h3>Lenovo ThinkPad X1 carbon Gen 11</h3>
+                <p>Harga: Rp 17.448.600</p>
+                <a href="https://shorturl.at/UOkuH" class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product-item">
+                <img src="https://down-id.img.susercontent.com/file/id-11134201-7r98x-lzu12iw5xcda1c.webp"
+                    alt="Laptop Lenovo 2">
+                <h3>Lenovo LOQ 15 GeForce RTX™</h3>
+                <p>Harga: Rp 13.598.000</p>
+                <a href="https://shorturl.at/z8qFk" class="buy-button">Beli Sekarang</a>
+            </div>
+        </div>
+
+        <!-- Produk Acer -->
+        <div id="acer" class="product-section">
+            <h2>Acer</h2>
+            <div class="product-item">
+                <img src="https://90a1c75758623581b3f8-5c119c3de181c9857fcb2784776b17ef.ssl.cf2.rackcdn.com/669981_604520_01_front_comping.jpg"
+                    alt="Laptop Acer 1">
+                <h3>Acer Aspire 5 A515 i5-1135G7 </h3>
+                <p>Harga: Rp 8.799.000</p>
+                <a href="https://www.tokopedia.com/auratechnology/acer-aspire-5-a515-i5-1135g7-8gb-ssd-512gb-15-6-fhd-vga-mx450-8gb-ssd-512gb-ada5d"
+                    class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product-item">
+                <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ2V4Dda7mynGT_CLcytRIx-DkRCpwTS4jeb2-FgfJVyw0ksuTotnNcYpMdpOnkKDfBlptyqYesgnyal4H6uehNv7yxgQVp6JVpRgRZXb0-8-VxyM0la_IW&usqp=CAE"
+                    alt="Laptop Acer 2">
+                <h3>Acer Nitro 5 Intel Core I5 Gen 13</h3>
+                <p>Harga: Rp 11.099.000</p>
+                <a href="https://shorturl.at/AIC8a" class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product-item">
+                <img src="https://www.amd-id.com/wp-content/uploads/2020/12/Kesimpulan-ACER-Swift-3-Ryzen.jpg"
+                    alt="Laptop Acer 2">
+                <h3>Acer Swift 3 SF313 Intel Evo i7 </h3>
+                <p>Harga: Rp 9.699.000</p>
+                <a href="https://www.tokopedia.com/sstore88/laptop-acer-swift-3-sf313-intel-evo-i7-ram-16gb-1tb-ssd-13-5-inch-2k-silver-ex-display-1tb-ssd-51d75"
+                    class="buy-button">Beli Sekarang</a>
+            </div>
+        </div>
+
+        <!-- Produk HP -->
+        <div id="hp" class="product-section">
+            <h2>HP</h2>
+            <div class="product-item">
+                <img src="https://www.jktgadget.com/wp-content/uploads/2020/10/PAvilion-Gaming-2.jpg" alt="Laptop HP 1">
+                <h3>HP Pavilion 15 RYZEN 5-5600H</h3>
+                <p>Harga: Rp 14,299,000</p>
+                <a href="https://example.com" class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product-item">
+                <img src="https://id-media.apjonlinecdn.com/catalog/product/cache/b3b166914d87ce343d4dc5ec5117b502/c/0/c08743973-touch.png"
+                    alt="Laptop HP 2">
+                <h3>HP Spectre x360 14 inch 2-in-1</h3>
+                <p>Harga: Rp 27.999.000</p>
+                <a href="https://www.hp.com/id-id/shop/hp-spectre-x360-2-in-1-laptop-14-eu0072tu-a9br1pa.html"
+                    class="buy-button">Beli Sekarang</a>
+            </div>
+            <div class="product-item">
+                <img src="https://id-media.apjonlinecdn.com/catalog/product/cache/74c1057f7991b4edb2bc7bdaa94de933/c/0/c08192437_3.png"
+                    alt="Laptop HP 2">
+                <h3>HP Victus 15-fb2667AX 15.6 inch ,</h3>
+                <p>Harga: Rp 27.999.000</p>
+                <a href="https://www.hp.com/id-id/shop/victus-gaming-laptop-15-fb2667ax-a4ty5pa.html"
+                    class="buy-button">Beli Sekarang</a>
+            </div>
+        </div>
+    </div>
+
+
+    <section id="kontak">
+        <h2>Kontak Kami</h2>
+        <p>Email Address: tokoonlinelaptop@laptop.com</p>
+        <p>Phone Number: (021-01235678)</p>
+    </section>
+
+    <section id="tentang">
+        <h2>Tentang Kami</h2>
+        <p class="justify-text">
+            Kami adalah penyedia laptop berkualitas dengan berbagai merek terkenal. <br>
+            HNDK Store adalah platform e-commerce yang menyediakan berbagai pilihan laptop dari merek-merek terkenal
+            seperti Lenovo, Acer, dan HP.
+            <br>Kami berkomitmen untuk menghadirkan produk-produk berkualitas tinggi yang cocok untuk kebutuhan kerja,
+            belajar, maupun gaming. Dengan harga yang kompetitif dan pengalaman belanja yang mudah, HNDK Store menjadi
+            destinasi utama untuk menemukan laptop terbaik.
+            Kami juga menyediakan layanan pelanggan yang siap membantu Anda dengan segala pertanyaan atau kebutuhan
+            terkait produk.
+            Jelajahi katalog kami, pilih laptop sesuai kebutuhan, dan nikmati kemudahan berbelanja online di HNDK Store.
+        </p>
+    </section>
+
+    <div class="top" onclick="goToTop()">👆</div>
+<footer>
+        <p>&copy; 2024 Toko Online Laptop HNDK Store</p> 
+    </footer>
+    <script>
+const goToTop = () => {
+            window.scrollTo({
+                top: 0, behavior: "smooth"
+            });
+        };
+
+        window.onscroll = () => {
+            const topButton = document.querySelector('.top');
+
+            /// menampilkan tombol 
+            if
+                (document.documentElement.scrollTop > 100) {
+                topButton.style.display = 'block';
+            } else {
+                topButton.style.display = 'none';
+            }
+        };
+
+
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            const hamburger = document.querySelector('.hamburger'); // Ambil elemen hamburger
+            navLinks.classList.toggle('show'); // Toggle tampilan menu
+            hamburger.classList.toggle('active'); // Toggle kelas active untuk animasi
+        }
+        // Close menu if click outside
+        window.onclick = function (event) {
+            const navLinks = document.getElementById('nav-links');
+            const hamburger = document.querySelector('.hamburger');
+            if (!hamburger.contains(event.target) && !navLinks.contains(event.target)) {
+                navLinks.classList.remove('show');
+                hamburger.classList.remove('active')
+            }
+        };
+    </script>
+</body>
+
+</html>
